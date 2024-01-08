@@ -6,5 +6,9 @@ def generate_pie_chart():
 
     fig, ax = plt.subplots()
     ax.pie(values, labels=labels)
-    plt.savefig("pie.png")
+    plt.savefig(r"/home/leonardope/py-project/charts/pie.png")
     plt.close()
+
+generate_pie_chart()
+
+
